@@ -1,0 +1,192 @@
+# depslib dependency file v1.0
+1629552654 source:/home/gabriel/Projetos/tlp/main.cpp
+	<vector>
+	<string.h>
+	<iostream>
+	"trackstate.h"
+	"input.h"
+	"mode.h"
+	"license.h"
+	"student.h"
+	"multiarray.h"
+	"variablestrings.h"
+	"linkedlist.h"
+	"class.h"
+	"recursion.h"
+
+1624723029 source:/home/gabriel/Projetos/tlp/input.cpp
+	<iostream>
+	"input.h"
+
+1625480865 source:/home/gabriel/Projetos/tlp/trackstate.cpp
+	<iostream>
+	<string>
+	"trackstate.h"
+
+1625480730 /home/gabriel/Projetos/tlp/trackstate.h
+	<string>
+
+1624722091 /home/gabriel/Projetos/tlp/input.h
+
+1625656618 /home/gabriel/Projetos/tlp/mode.h
+
+1625658503 source:/home/gabriel/Projetos/tlp/mode.cpp
+	<iostream>
+	"student.h"
+	"mode.h"
+
+1629152412 source:/home/gabriel/Projetos/tlp/license.cpp
+	<iostream>
+	"license.h"
+
+1625482027 /home/gabriel/Projetos/tlp/license.h
+
+1625531134 /home/gabriel/Projetos/tlp/include/student.h
+	<string>
+
+1625531729 source:/home/gabriel/Projetos/tlp/src/student.cpp
+	<iostream>
+	"student.h"
+
+1625652309 /home/gabriel/Projetos/tlp/student.h
+	<string>
+
+1625650239 source:/home/gabriel/Projetos/tlp/student.cpp
+	<cstdlib>
+	<iostream>
+	"mode.h"
+	"student.h"
+
+1625614827 source:/home/gabriel/Projetos/tlp/src/multiarray.cpp
+	<iostream>
+	"multiarray.h"
+
+1625614521 /home/gabriel/Projetos/tlp/include/multiarray.h
+
+1625653124 /home/gabriel/Projetos/tlp/multiarray.h
+
+1625655111 source:/home/gabriel/Projetos/tlp/multiarray.cpp
+	<iostream>
+	"multiarray.h"
+	"mode.h"
+	"student.h"
+
+1626116498 source:/home/gabriel/Projetos/tlp/variablestrings.cpp
+	"variablestrings.h"
+
+1626114945 /home/gabriel/Projetos/tlp/variablestrings.h
+
+1629551139 source:/home/gabriel/Projetos/tlp/linkedlist.cpp
+	<iostream>
+	"linkedlist.h"
+
+1629551052 /home/gabriel/Projetos/tlp/linkedlist.h
+
+1628105458 source:/home/gabriel/Projetos/tlp/src/class.cpp
+	<iostream>
+	"class.h"
+
+1628948665 /home/gabriel/Projetos/tlp/include/class.h
+
+1629755983 /home/gabriel/Projetos/tlp/class.h
+
+1629757346 source:/home/gabriel/Projetos/tlp/class.cpp
+	<string.h>
+	<iostream>
+	"class.h"
+
+1629552228 source:/home/gabriel/Projetos/tlp/recursion.cpp
+	<iostream>
+	<stack>
+	"recursion.h"
+
+1629550397 /home/gabriel/Projetos/tlp/recursion.h
+	<type_traits>
+	<iostream>
+
+1630354733 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\class.cpp
+	<string.h>
+	<iostream>
+	"class.h"
+
+1630354740 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\class.h
+
+1629998250 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\input.cpp
+	<iostream>
+	"input.h"
+
+1629998250 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\input.h
+
+1629998250 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\license.cpp
+	<iostream>
+	"license.h"
+
+1629998250 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\license.h
+
+1629998250 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\linkedlist.cpp
+	<iostream>
+	"linkedlist.h"
+
+1632247400 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\linkedlist.h
+
+1629998252 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\mode.cpp
+	<iostream>
+	"student.h"
+	"mode.h"
+
+1629998252 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\student.h
+	<string>
+
+1629998252 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\mode.h
+
+1632248881 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\multiarray.cpp
+	<stdlib.h>
+	<iostream>
+	"multiarray.h"
+	"mode.h"
+	"student.h"
+
+1629998252 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\multiarray.h
+
+1629998252 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\recursion.cpp
+	<iostream>
+	<stack>
+	"recursion.h"
+
+1630119323 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\recursion.h
+	<iostream>
+
+1629998252 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\student.cpp
+	<cstdlib>
+	<iostream>
+	"mode.h"
+	"student.h"
+
+1629998252 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\trackstate.cpp
+	<iostream>
+	<string>
+	"trackstate.h"
+
+1629998252 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\trackstate.h
+	<string>
+
+1629998252 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\variablestrings.cpp
+	"variablestrings.h"
+
+1629998254 c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\variablestrings.h
+
+1632237832 source:c:\users\seeduc\documents\biblioteca\wealthy\engineering\esw\thinking like a programmer\projetos\tlp\main.cpp
+	<string.h>
+	<vector>
+	<iostream>
+	"trackstate.h"
+	"input.h"
+	"mode.h"
+	"license.h"
+	"student.h"
+	"multiarray.h"
+	"variablestrings.h"
+	"linkedlist.h"
+	"class.h"
+	"recursion.h"
+

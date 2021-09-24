@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tlp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tlp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tlp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="class.cpp" />
+		<Unit filename="class.h" />
+		<Unit filename="input.cpp" />
+		<Unit filename="input.h" />
+		<Unit filename="license.cpp" />
+		<Unit filename="license.h" />
+		<Unit filename="linkedlist.cpp" />
+		<Unit filename="linkedlist.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mode.cpp" />
+		<Unit filename="mode.h" />
+		<Unit filename="multiarray.cpp" />
+		<Unit filename="multiarray.h" />
+		<Unit filename="recursion.cpp" />
+		<Unit filename="recursion.h" />
+		<Unit filename="student.cpp" />
+		<Unit filename="student.h" />
+		<Unit filename="trackstate.cpp" />
+		<Unit filename="trackstate.h" />
+		<Unit filename="variablestrings.cpp" />
+		<Unit filename="variablestrings.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
