@@ -144,7 +144,9 @@ public:
         prepareLesson();
         cout << "and is teaching " << endl;
     }
-    Teacher(string name, string company, int age, string subject)
+	
+	//explicit avoids implicit class conversion
+    explicit Teacher(string name, string company, int age, string subject)
         : Employee(name, company, age)
     {
         this->subject = subject;
@@ -170,11 +172,18 @@ int main()
 
     Employee * e2 = new Teacher("Emanuel", "Bouros", 21, "Marketing");//&t1;
 
-    Teacher t1 = Teacher("Jessica", "Ramos", 26, "Telemarkting");
+    Teacher t1 = Teacher("Jessica", "Transfero", 26, "Telemarkting");
 
-    Teacher t2 = Teacher("Regina", "Ambiel", 56, "Cooker");
+    Teacher t2 = Teacher("Regina", "Hitts", 56, "Cooker");
 
     cout << Teacher::s_num << endl;
+	
+	cout << t1.getName() << " " << t1.getCompany() << " " << t1.getAge() << " " << t1.getSubject() << endl;
+	
+	//this will produce compiling error since we have an explicit constructor
+	t1 = {"Ana", "Homecare", 51, "Nursery"}; //this will make an implicit class conversion.
+	
+	cout << t1.getName() << " " << t1.getCompany() << " " << t1.getAge() << " " << t1.getSubject() << endl;
 
     e1->work();
 
