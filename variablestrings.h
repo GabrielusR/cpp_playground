@@ -15,6 +15,6 @@ void append( arrayString & str, char character );
 
 //concatenate This function takes two strings and appends the characters of the
 //second string onto the first.
-void concatenate( arrayString & str, arrayString str2 );
+void concatenate( arrayString str, arrayString str2 );
 
 #endif

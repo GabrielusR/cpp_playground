@@ -20,7 +20,7 @@ int arraySum( int arr[], int size )
     return sum;
 }
 
-int factorial( int num )
+unsigned long int factorial( int num )
 {
     if( num == 1 )
     {

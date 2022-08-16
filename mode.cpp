@@ -53,12 +53,6 @@ int * findMode( int arr[], int arrSize )
     int mode = 1;
     int highestFrequency = arr[0];
 
-    result[0] = 510;
-    result[1] = 1020;
-
-    mode = 1;
-    highestFrequency = arr[0];
-
     for( int i = 1; i < arrSize; i++ )
     {
         if( arr[i] > highestFrequency )

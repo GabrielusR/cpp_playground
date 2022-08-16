@@ -7,7 +7,7 @@ using std::cout;
 
 int arraySum( int arr[], int size );
 
-int factorial( int num );
+unsigned long int factorial( int num );
 
 int zeroCount( int arr[], int size );
 
